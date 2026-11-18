@@ -328,7 +328,7 @@ private fun LanguageSelector(
             .padding(horizontal = 14.dp, vertical = 12.dp),
     ) {
         Text(
-            text = caption.uppercase(),
+            text = caption,
             style = MaterialTheme.typography.labelSmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
@@ -362,7 +362,7 @@ private fun ResultCard(
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 Text(
-                    text = stringResource(R.string.result).uppercase(),
+                    text = stringResource(R.string.result),
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     modifier = Modifier.weight(1f),
@@ -394,8 +394,8 @@ private fun ResultCard(
                     horizontalArrangement = Arrangement.spacedBy(4.dp),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
-                    ActionButton(Icons.Filled.ContentCopy, stringResource(R.string.copy), onCopy)
-                    ActionButton(Icons.Filled.Share, stringResource(R.string.share), onShare)
+                    ActionButton(Icons.Filled.ContentCopy, stringResource(R.string.nj_copy), onCopy)
+                    ActionButton(Icons.Filled.Share, stringResource(R.string.nj_share), onShare)
                     ActionButton(Icons.Filled.VolumeUp, stringResource(R.string.speak), onSpeak)
                 }
             }

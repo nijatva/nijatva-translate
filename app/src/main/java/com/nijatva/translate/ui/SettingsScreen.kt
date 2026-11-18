@@ -80,7 +80,7 @@ fun SettingsScreen(
                     IconButton(onClick = onBack) {
                         Icon(
                             imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                            contentDescription = stringResource(R.string.back),
+                            contentDescription = stringResource(R.string.nj_back),
                             tint = MaterialTheme.colorScheme.onSurfaceVariant,
                         )
                     }
@@ -159,7 +159,7 @@ fun SettingsScreen(
                 ),
             ) {
                 Text(
-                    text = stringResource(R.string.save),
+                    text = stringResource(R.string.nj_save),
                     style = MaterialTheme.typography.labelLarge,
                 )
             }
@@ -167,7 +167,7 @@ fun SettingsScreen(
             Spacer(Modifier.height(36.dp))
 
             Text(
-                text = stringResource(R.string.nj_section).uppercase(),
+                text = stringResource(R.string.nj_section),
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )

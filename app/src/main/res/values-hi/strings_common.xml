@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  हिंदी। Same keys as common-en.xml, same order. Technical nouns stay in Latin
+  script where the Hindi word is obscure; see ../wording.md.
+-->
+<resources>
+
+    <!-- actions -->
+    <string name="nj_cancel">रद्द करें</string>
+    <string name="nj_delete">हटाएँ</string>
+    <string name="nj_save">सहेजें</string>
+    <string name="nj_done">हो गया</string>
+    <string name="nj_close">बंद करें</string>
+    <string name="nj_open">खोलें</string>
+    <string name="nj_share">साझा करें</string>
+    <string name="nj_copy">कॉपी करें</string>
+    <string name="nj_paste">पेस्ट करें</string>
+    <string name="nj_rename">नाम बदलें</string>
+    <string name="nj_move">ले जाएँ</string>
+    <string name="nj_select_all">सब चुनें</string>
+    <string name="nj_retry">फिर कोशिश करें</string>
+    <string name="nj_search">खोजें</string>
+    <string name="nj_back">वापस</string>
+    <string name="nj_next">आगे</string>
+
+    <!-- sections -->
+    <string name="nj_settings">सेटिंग्स</string>
+    <string name="nj_about">ऐप के बारे में</string>
+    <string name="nj_permissions">अनुमतियाँ</string>
+    <string name="nj_language">भाषा</string>
+    <string name="nj_theme">थीम</string>
+    <string name="nj_accent_colour">एक्सेंट रंग</string>
+
+    <!-- theme values -->
+    <string name="nj_theme_system">सिस्टम</string>
+    <string name="nj_theme_dark">गहरा</string>
+    <string name="nj_theme_light">हल्का</string>
+    <string name="nj_theme_black">काला</string>
+
+    <!-- nouns -->
+    <string name="nj_file">फ़ाइल</string>
+    <string name="nj_folder">फ़ोल्डर</string>
+    <string name="nj_photo">फ़ोटो</string>
+    <string name="nj_video">वीडियो</string>
+    <string name="nj_music">संगीत</string>
+    <string name="nj_contact">संपर्क</string>
+    <string name="nj_message">संदेश</string>
+    <string name="nj_storage">संग्रहण</string>
+    <string name="nj_trash">ट्रैश</string>
+
+    <!-- the promise, where it fits -->
+    <string name="nj_no_ads_no_account">कोई विज्ञापन नहीं, कोई खाता नहीं</string>
+    <string name="nj_offline">ऑफ़लाइन</string>
+
+    <!-- states -->
+    <string name="nj_empty_default">अभी यहाँ कुछ नहीं है।</string>
+    <string name="nj_error_default">यह काम नहीं हुआ। फिर कोशिश करें।</string>
+    <string name="nj_loading">जाँच हो रही है…</string>
+
+    <!-- plurals -->
+    <plurals name="nj_items_selected">
+        <item quantity="one">%1$d चुना गया</item>
+        <item quantity="other">%1$d चुने गए</item>
+    </plurals>
+
+    <plurals name="nj_files_deleted">
+        <item quantity="one">%1$d फ़ाइल हटाई गई</item>
+        <item quantity="other">%1$d फ़ाइलें हटाई गईं</item>
+    </plurals>
+
+</resources>
