@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nijatva Translate</string>
+    <string name="tagline">22 भारतीय भाषाओं और दुनिया के बीच अनुवाद करें</string>
+
+    <string name="source_language">से</string>
+    <string name="target_language">में</string>
+    <string name="detect_language">भाषा का पता लगाएँ</string>
+    <string name="swap_languages">भाषाएँ बदलें</string>
+
+    <string name="input_hint">टेक्स्ट टाइप या पेस्ट करें…</string>
+    <string name="clear_input">टेक्स्ट हटाएँ</string>
+    <string name="translate">अनुवाद करें</string>
+    <string name="translating">अनुवाद हो रहा है…</string>
+    <string name="result">अनुवाद</string>
+    <string name="result_placeholder">आपका अनुवाद यहाँ दिखाई देगा।</string>
+
+    <string name="copy">कॉपी करें</string>
+    <string name="copied">क्लिपबोर्ड में कॉपी हो गया</string>
+    <string name="share">शेयर करें</string>
+    <string name="speak">सुनें</string>
+
+    <string name="settings">इंजन सेटिंग्स</string>
+    <string name="back">वापस</string>
+    <string name="base_url">इंजन बेस URL</string>
+    <string name="base_url_hint">https://libretranslate.com</string>
+    <string name="api_key">API key (वैकल्पिक)</string>
+    <string name="api_key_hint">पब्लिक या लोकल सर्वर के लिए खाली छोड़ें</string>
+    <string name="save">सेव करें</string>
+    <string name="saved">सेटिंग्स सेव हो गईं</string>
+    <string name="settings_help">निजत्व ट्रांसलेट किसी भी LibreTranslate-संगत एंडपॉइंट से जुड़ता है। इसे डॉकर से अपने कंप्यूटर पर चलाएँ, या अपने भाषिणी या IndicTrans2 गेटवे की ओर इंगित करें।</string>
+
+    <string name="search_languages">भाषाएँ खोजें</string>
+    <string name="no_languages">उस खोज से मेल खाने वाली कोई भाषा नहीं है।</string>
+    <string name="error_generic">अनुवाद विफल रहा। सेटिंग्स में अपने इंजन URL की जाँच करें।</string>
+
+    <string name="nj_section">Nijatva</string>
+    <string name="nj_appearance">रूप-रंग</string>
+    <string name="nj_developer">डेवलपर</string>
+</resources>
